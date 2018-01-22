@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mlb:bgtv3Mutaties
+  xmlns="http://www.opengis.net/citygml/2.0"
+  xmlns:mlb="http://www.kadaster.nl/schemas/mutatielevering-bgtv3/1.0"
+  xmlns:ml="http://www.kadaster.nl/schemas/mutatielevering-generiek/1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.kadaster.nl/schemas/mutatielevering-bgtv3/1.0 mutatielevering-bgtv3-1.0.xsd">
+  <ml:mutatieBericht>
+    <ml:dataset>bgtv3</ml:dataset>
+    <ml:inhoud>
+      <ml:gebied>All</ml:gebied>
+      <ml:aanleveringId>a6993208-4eb5-4ca2-9533-5baad0c6cec6</ml:aanleveringId>
+      <ml:objectTypen>
+        <ml:objectType>bak</ml:objectType>
+        <ml:objectType>begroeidterreindeel</ml:objectType>
+        <ml:objectType>bord</ml:objectType>
+        <ml:objectType>buurt</ml:objectType>
+        <ml:objectType>functioneelgebied</ml:objectType>
+        <ml:objectType>gebouwinstallatie</ml:objectType>
+        <ml:objectType>installatie</ml:objectType>
+        <ml:objectType>kast</ml:objectType>
+        <ml:objectType>kunstwerkdeel</ml:objectType>
+        <ml:objectType>mast</ml:objectType>
+        <ml:objectType>onbegroeidterreindeel</ml:objectType>
+        <ml:objectType>ondersteunendwaterdeel</ml:objectType>
+        <ml:objectType>ondersteunendwegdeel</ml:objectType>
+        <ml:objectType>ongeclassificeerdobject</ml:objectType>
+        <ml:objectType>openbareruimtelabel</ml:objectType>
+        <ml:objectType>overbruggingsdeel</ml:objectType>
+        <ml:objectType>overigbouwwerk</ml:objectType>
+        <ml:objectType>overigescheiding</ml:objectType>
+        <ml:objectType>paal</ml:objectType>
+        <ml:objectType>pand</ml:objectType>
+        <ml:objectType>put</ml:objectType>
+        <ml:objectType>scheiding</ml:objectType>
+        <ml:objectType>sensor</ml:objectType>
+        <ml:objectType>spoor</ml:objectType>
+        <ml:objectType>straatmeubilair</ml:objectType>
+        <ml:objectType>tunneldeel</ml:objectType>
+        <ml:objectType>vegetatieobject</ml:objectType>
+        <ml:objectType>waterdeel</ml:objectType>
+        <ml:objectType>waterinrichtingselement</ml:objectType>
+        <ml:objectType>wegdeel</ml:objectType>
+        <ml:objectType>weginrichtingselement</ml:objectType>
+        <ml:objectType>wijk</ml:objectType>
+      </ml:objectTypen>
+    </ml:inhoud>
+    <ml:mutatieGroep>
+      <ml:wijziging objectType="bak"
+                    objectId="G0546.008f5f0a847a41fc942a9b0e0836490e">
+        <ml:was id="17cd63eb-1263-4c90-91c4-d7d932587cd0">
+          <mlb:bgtObject>
+            {geometry}
+          </mlb:bgtObject>
+        </ml:was>
+        <ml:wordt id="6de49d01-595d-4cac-8045-cf9de97d53e2">
+          <mlb:bgtObject>
+            {geometry}
+          </mlb:bgtObject>
+        </ml:wordt>
+      </ml:wijziging>
+    </ml:mutatieGroep>
+  </ml:mutatieBericht>
+</mlb:bgtv3Mutaties>
