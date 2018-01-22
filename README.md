@@ -21,9 +21,9 @@ Object_id samen met id is een unieke combinatie. ObjectId kan vaker voorkomen ma
 ## Objects en delivery's
 Een delivery/mutatielevering kan meerdere objecten en zelfs meerdere objecten met hetzelfde objectid bevatten. 
 Een delivery is hierbij opgedeeld in 3 soorten mutatieberichten, in combinatie met een was-wordt model;
-- Toevoeging - wordt bericht - Object wordt gecreeerd - [toevoeging.xml](../blob/master/voorbeeldbericht/toevoeging.xml)
-- Wijziging - was-wordt bericht - Object wordt gewijzigd - [wijziging.xml](../blob/master/voorbeeldbericht/wijziging.xml)
-- Verwijdering - Was bericht -  Object wordt vernietigd - [verwijdering.xml](../blob/master/voorbeeldbericht/verwijdering.xml)
+- Toevoeging - wordt bericht - Object wordt gecreeerd - [toevoeging.xml](../master/voorbeeldbericht/toevoeging.xml)
+- Wijziging - was-wordt bericht - Object wordt gewijzigd - [wijziging.xml](../master/voorbeeldbericht/wijziging.xml)
+- Verwijdering - Was bericht -  Object wordt vernietigd - [verwijdering.xml](../master/voorbeeldbericht/verwijdering.xml)
 
 ## Download service api
 
