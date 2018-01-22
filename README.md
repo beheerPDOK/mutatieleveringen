@@ -30,6 +30,8 @@ Een delivery is hierbij opgedeeld in 3 soorten mutatieberichten, in combinatie m
 - Wijziging - was-wordt bericht - Object wordt gewijzigd - [wijziging.xml](../master/voorbeeldbericht/wijziging.xml)
 - Verwijdering - Was bericht -  Object wordt vernietigd - [verwijdering.xml](../master/voorbeeldbericht/verwijdering.xml)
 
+Voor meer informatie over het berichten formaat: [https://github.com/PDOK/schemas-mutatielevering](https://github.com/PDOK/schemas-mutatielevering)
+
 ## Download service api
 
 De test-api is te bereiken via https://test.downloads.pdok.nl/api/ dit levert een swagger interface op met de laatste informatie over de API.
@@ -45,7 +47,7 @@ De test-api is te bereiken via https://test.downloads.pdok.nl/api/ dit levert ee
 Voor het bijhouden van de mutaties van de BGT zult u de volgende stappen hanteren:
 
 1. Download een initiële stand met de **"download-full"** link, dit levert je de volledige gezipte stand van vandaag qua levering. 
-Verwachting zal dit enkele gig bestanden zijn. Meestal volledig alleen met toevoegingen. **In dit bestand zit een aanleveringId deze heb je nodig voor het opvragen van een volgend delivery**.
+Verwachting zal dit enkele gig bestanden zijn. **In dit bestand zit een aanleveringId deze heb je nodig voor het opvragen van een volgend delivery**.
 2. Door middel van **"download-since"** kun je opvragen of er nog nieuwe aanleveringen zijn. **Zet hiervoor het aanleveringId in link van de delivery.** 
 Dit geeft uiteindelijk een lijst met nog te downloaden delivery's. Het is alleen mogelijk om 31 dagen na een full download mutaties af te halen. 
 3. Elke delivery kan nu gedownload worden door middel van het verkregen delivery id met de download-since in de **"download-delivery"** te zetten.
