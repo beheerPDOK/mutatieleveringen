@@ -1,13 +1,17 @@
 # How To Mutaties
 
-Deze pagina geeft een overzicht hoe de mutaties van de BGTv3 te verwerken zijn.
+Deze pagina geeft een beschrijving hoe de mutaties van de BGTv3 te downloaden zijn.
 
-### Inhoud
+---
+
+## Inhoud
 
 - Object
 - Objects en delivery's
 - Download service api
 - How to download mutaties
+
+---
 
 ## Object
 Een object bestaat uit de volgende informatie elementen:
@@ -28,7 +32,7 @@ Een delivery is hierbij opgedeeld in 3 soorten mutatieberichten, in combinatie m
 ## Download service api
 
 | Refence Name      | RequestType | Api                                                             | Omschrijving                 |
-| :-----------------|:-----------:|:---------------------------------------------------------------:| ----------------------------:|
+| ----------------- | ----------- | --------------------------------------------------------------- | ---------------------------- |
 | download-full     | GET         | /api/v2/deliveries/bgtv3/citygml/download-full                  | Download de initiële stand   |
 | download-since    | GET         | /api/v2/deliveries/bgtv3/citygml/since/{deliveryId}             | Download de delivery ids     |
 | download-delivery | GET         | /api/v2/deliveries/bgtv3/citygml/download-delivery/{deliveryId} | Download de delivery with id |
