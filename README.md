@@ -1,8 +1,7 @@
 # How To Mutaties
 
-Deze pagina geeft een beschrijving hoe de mutaties van de BGTv3 te downloaden zijn. Het downloaden van mutaties van de BGTv3 kan noodzakelijk zijn als u een kopie lokaal wilt gebruiken.
+Deze pagina geeft een beschrijving hoe de mutaties van de BGTv3 via een API te downloaden zijn. Het dagelijks ontvangen van mutaties maak het mogelijk om een eigen bijhouding actueel en efficiënt te maken. 
 
----
 
 ## Inhoud
 
@@ -41,6 +40,12 @@ De test-api is te bereiken via https://test.downloads.pdok.nl/api/ dit levert ee
 | download-full     | GET         | /api/v2/deliveries/bgtv3/citygml/download-full                  | Download de initiële stand   |
 | download-since    | GET         | /api/v2/deliveries/bgtv3/citygml/since/{deliveryId}             | Download de delivery ids     |
 | download-delivery | GET         | /api/v2/deliveries/bgtv3/citygml/download-delivery/{deliveryId} | Download de delivery with id |
+
+
+- de API biedt de mogelijkheid om de mutaties van 1 of meerdere dagen op te halen 
+- de API kan mutaties t/m 31 dagen terug ophalen
+- de API an mutaties van alles maar ook per objecttype ophalen
+- de API kan een interessegebied ophalen door middel van een persistente URL
 
 
 ## How-to mutaties downloaden
